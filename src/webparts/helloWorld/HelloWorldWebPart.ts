@@ -69,15 +69,15 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart <IHelloWorl
       <div class="${ styles.row }">
         <div class="${ styles.column }">
           <span class="${ styles.title }">Welcome to SharePoint!</span>
-  <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
-    <p class="${ styles.description }">${escape(this.properties.description)}</p>
-      <a href="https://aka.ms/spfx" class="${ styles.button }">
-        <span class="${ styles.label }">Learn more</span>
-          </a>
-          </div>
-          </div>
-          </div>
-          </div>`;
+            <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
+            <p class="${ styles.description }">${escape(this.properties.description)}</p>
+             <a href="https://aka.ms/spfx" class="${ styles.button }">
+             <span class="${ styles.label }">Learn more</span>
+             </a>
+        </div>
+        </div>
+      </div>
+    </div>`;
   }
 
   protected get dataVersion(): Version {
